@@ -5,9 +5,9 @@ import com.subin.framework.aop.advisor.AfterRunningAdvice;
 import java.lang.reflect.Method;
 
 /**
- * @author: subiin
- * @date: 2018/1/24 下午11:44
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/24 下午11:44
+ * @ description:
  */
 public class EndTimeAfterMethod implements AfterRunningAdvice {
     @Override

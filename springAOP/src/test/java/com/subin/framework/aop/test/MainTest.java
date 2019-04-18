@@ -3,9 +3,9 @@ package com.subin.framework.aop.test;
 import com.subin.framework.aop.core.AopApplictionContext;
 
 /**
- * @author: subiin
- * @date: 2018/1/24 下午11:49
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/24 下午11:49
+ * @ description:
  */
 public class MainTest {
 

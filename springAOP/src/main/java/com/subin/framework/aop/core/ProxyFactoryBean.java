@@ -1,9 +1,9 @@
 package com.subin.framework.aop.core;
 
 /**
- * @author: subiin
- * @date: 2018/1/24 下午11:57
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/24 下午11:57
+ * @ description:
  */
 public class ProxyFactoryBean {
 }

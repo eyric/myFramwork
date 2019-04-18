@@ -3,9 +3,9 @@ import sun.misc.Launcher;
 import java.net.URL;
 
 /**
- * @author: subiin
- * @date: 2018/1/15 下午10:27
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/15 下午10:27
+ * @ description:
  */
 public class ClassLoaderTest {
     public static void main(String[] args) {

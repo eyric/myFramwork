@@ -5,9 +5,9 @@ import com.subin.framework.mybatis.beans.Test;
 import java.sql.*;
 
 /**
- * @author: subiin
- * @date: 2018/2/28 上午10:26
- * @description:
+ * @ Author: levin
+ * @ date: 2018/2/28 上午10:26
+ * @ description:
  */
 public class SimpleExecutor implements Executor {
     public <E> E query(String sql, Object parameter) {

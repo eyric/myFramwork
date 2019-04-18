@@ -5,9 +5,9 @@ import com.subin.framework.aop.advisor.BeforeMethodAdvice;
 import java.lang.reflect.Method;
 
 /**
- * @author: subiin
- * @date: 2018/1/24 下午11:40
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/24 下午11:40
+ * @ description:
  */
 public class StartTimeBeforeMethod implements BeforeMethodAdvice {
     @Override

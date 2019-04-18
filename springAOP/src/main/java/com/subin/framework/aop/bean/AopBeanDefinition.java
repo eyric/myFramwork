@@ -6,9 +6,9 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:40
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:40
+ * @ description:
  */
 @Data
 public class AopBeanDefinition extends BeanDefinition {

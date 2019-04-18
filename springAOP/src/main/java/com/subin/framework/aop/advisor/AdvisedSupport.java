@@ -7,9 +7,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:17
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:17
+ * @ description:
  */
 @Data
 public class AdvisedSupport extends Advisor {

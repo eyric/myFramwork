@@ -7,9 +7,9 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:11
- * @description: 重写了 invokeOriginal 方法。使用代理类来调用被增强的方法。
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:11
+ * @ description: 重写了 invokeOriginal 方法。使用代理类来调用被增强的方法。
  */
 public class CglibMethodInvocation extends ReflectioveMethodeInvocation {
 

@@ -6,9 +6,9 @@ import com.subin.framework.aop.interceptor.AfterRunningAdviceInterceptor;
 import com.subin.framework.aop.interceptor.AopMethodInterceptor;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:52
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:52
+ * @ description:
  */
 public class AfterRunningAdviceAdapter implements AdviceAdapter {
 

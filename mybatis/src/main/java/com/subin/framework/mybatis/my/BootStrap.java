@@ -3,9 +3,9 @@ package com.subin.framework.mybatis.my;
 import com.subin.framework.mybatis.beans.Test;
 
 /**
- * @author: subiin
- * @date: 2018/2/28 下午9:09
- * @description:
+ * @ Author: levin
+ * @ date: 2018/2/28 下午9:09
+ * @ description:
  */
 public class BootStrap {
     public static void start() {

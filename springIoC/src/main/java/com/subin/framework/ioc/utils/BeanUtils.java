@@ -6,9 +6,9 @@ import net.sf.cglib.proxy.NoOp;
 import java.lang.reflect.Constructor;
 
 /**
- * @author: subiin
- * @date: 2018/1/14 上午10:55
- * @description: 负责处理对象的实例化
+ * @ Author: levin
+ * @ date: 2018/1/14 上午10:55
+ * @ description: 负责处理对象的实例化
  */
 public class BeanUtils {
 

@@ -3,9 +3,9 @@ package com.subin.framework.aop.invocation;
 import java.lang.reflect.Method;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午9:42
- * @description: 用于描述方法的调用
+ * @ Author: levin
+ * @ date: 2018/1/23 下午9:42
+ * @ description: 用于描述方法的调用
  */
 public interface MethodInvocation {
 

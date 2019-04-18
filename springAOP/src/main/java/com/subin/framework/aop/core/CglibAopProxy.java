@@ -6,9 +6,9 @@ import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:23
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:23
+ * @ description:
  */
 public class CglibAopProxy implements AopProxy {
 

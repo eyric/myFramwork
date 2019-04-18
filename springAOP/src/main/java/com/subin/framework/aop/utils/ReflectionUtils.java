@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:06
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:06
+ * @ description:
  */
 public class ReflectionUtils {
 
@@ -14,9 +14,7 @@ public class ReflectionUtils {
         method.setAccessible(true);
         try {
             return method.invoke(target, args);
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
+        } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
         return null;

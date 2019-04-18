@@ -6,9 +6,9 @@ import com.subin.framework.aop.interceptor.AopMethodInterceptor;
 import com.subin.framework.aop.interceptor.BeforeMethodAdviceInterceptor;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:59
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:59
+ * @ description:
  */
 public class BeforeMethodAdviceAdapter implements AdviceAdapter {
     private static final BeforeMethodAdviceAdapter INSTANTS = new BeforeMethodAdviceAdapter();

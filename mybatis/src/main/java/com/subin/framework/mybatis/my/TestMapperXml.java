@@ -4,9 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author: subiin
- * @date: 2018/2/28 下午8:58
- * @description:
+ * @ Author: levin
+ * @ date: 2018/2/28 下午8:58
+ * @ description:
  */
 public class TestMapperXml {
     public static final String nameSpace = "com.subin.framework.mybatis.my.TestMapper";

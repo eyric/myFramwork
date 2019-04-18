@@ -3,9 +3,9 @@ package com.subin.framework.ioc.utils;
 import java.lang.reflect.Field;
 
 /**
- * @author: subiin
- * @date: 2018/1/14 上午11:00
- * @description: 通过 Java 反射的原理来完成对象的依赖注入
+ * @ Author: levin
+ * @ date: 2018/1/14 上午11:00
+ * @ description: 通过 Java 反射的原理来完成对象的依赖注入
  */
 public class ReflectionUtils {
 

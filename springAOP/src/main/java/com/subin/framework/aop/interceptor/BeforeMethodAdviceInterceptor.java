@@ -4,9 +4,9 @@ import com.subin.framework.aop.advisor.BeforeMethodAdvice;
 import com.subin.framework.aop.invocation.MethodInvocation;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午9:50
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午9:50
+ * @ description:
  */
 public class BeforeMethodAdviceInterceptor implements AopMethodInterceptor {
 

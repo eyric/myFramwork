@@ -8,9 +8,9 @@ import java.io.InputStream;
 import java.util.List;
 
 /**
- * @author: subin
- * @date: 2018/1/14 上午11:50
- * @description:
+ * @ Author: Levin
+ * @ date: 2018/1/14 上午11:50
+ * @ description:
  */
 public class JsonApplicationContext extends BeanFactoryImpl {
 
@@ -26,7 +26,8 @@ public class JsonApplicationContext extends BeanFactoryImpl {
 
     private void loadFile() {
         InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream(fileName);
-        List<BeanDefinition> beanDefinitions = JsonUtils.readValue(is, new TypeReference<List<BeanDefinition>>(){});
+        List<BeanDefinition> beanDefinitions = JsonUtils.readValue(is, new TypeReference<List<BeanDefinition>>() {
+        });
         if (beanDefinitions != null && !beanDefinitions.isEmpty()) {
             for (BeanDefinition beanDefinition : beanDefinitions) {
                 registerBean(beanDefinition.getName(), beanDefinition);

@@ -5,9 +5,9 @@ import lombok.Data;
 import java.io.IOException;
 
 /**
- * @author: subiin
- * @date: 2018/3/5 下午11:41
- * @description:
+ * @ Author: levin
+ * @ date: 2018/3/5 下午11:41
+ * @ description:
  */
 @Data
 public class EmConfiguration {

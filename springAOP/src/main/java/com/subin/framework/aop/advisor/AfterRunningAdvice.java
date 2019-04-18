@@ -3,9 +3,9 @@ package com.subin.framework.aop.advisor;
 import java.lang.reflect.Method;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午9:55
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午9:55
+ * @ description:
  */
 public interface AfterRunningAdvice extends Advice {
     /**

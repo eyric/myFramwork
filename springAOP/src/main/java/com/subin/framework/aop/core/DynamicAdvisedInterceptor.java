@@ -11,9 +11,9 @@ import java.lang.reflect.Method;
 import java.util.List;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:26
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:26
+ * @ description:
  */
 public class DynamicAdvisedInterceptor implements MethodInterceptor {
 

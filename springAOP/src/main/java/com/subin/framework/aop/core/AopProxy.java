@@ -1,9 +1,9 @@
 package com.subin.framework.aop.core;
 
 /**
- * @author: subiin
- * @date: 2018/1/23 下午10:22
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/23 下午10:22
+ * @ description:
  */
 public interface AopProxy {
 

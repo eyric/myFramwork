@@ -12,9 +12,9 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author: subin
- * @date: 2018/1/14 上午11:03
- * @description:
+ * @ Author: Levin
+ * @ date: 2018/1/14 上午11:03
+ * @ description:
  */
 public class BeanFactoryImpl implements BeanFactory {
 

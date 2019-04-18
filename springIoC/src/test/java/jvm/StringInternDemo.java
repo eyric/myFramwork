@@ -1,9 +1,9 @@
 package jvm;
 
 /**
- * @author: subiin
- * @date: 2018/1/20 下午5:03
- * @description:
+ * @ Author: levin
+ * @ date: 2018/1/20 下午5:03
+ * @ description:
  */
 public class StringInternDemo {
     public static void main(String[] args) {
@@ -17,7 +17,9 @@ public class StringInternDemo {
         String s3 = "2" + new String("3");
         s3.intern();
         String s4 = "23";
+        String s5 = new String("23");
         System.out.println(s3 == s4);
+        System.out.println(s5 == s4);
 
     }
 }

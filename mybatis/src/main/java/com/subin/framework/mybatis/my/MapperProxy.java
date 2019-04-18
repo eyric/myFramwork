@@ -4,9 +4,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * @author: subiin
- * @date: 2018/2/28 上午10:24
- * @description:
+ * @ Author: levin
+ * @ date: 2018/2/28 上午10:24
+ * @ description:
  */
 public class MapperProxy<T> implements InvocationHandler {
 

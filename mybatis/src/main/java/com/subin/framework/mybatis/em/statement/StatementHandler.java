@@ -41,7 +41,7 @@ public class StatementHandler {
         return null;
     }
 
-    public Connection getConnection() throws SQLException {
+    public Connection getConnection() {
         String driver = "com.mysql.cj.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/em?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         String username = "root";
@@ -50,9 +50,7 @@ public class StatementHandler {
         try {
             Class.forName(driver); //classLoader,加载对应驱动
             conn = DriverManager.getConnection(url, username, password);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
         return conn;
