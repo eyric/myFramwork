@@ -1,2 +1,2 @@
-# implements
-Spring、Mybatis 等框架的手写实现
+# myFramework
+Spring、Hibernate、Mybatis 等框架的mini实现
