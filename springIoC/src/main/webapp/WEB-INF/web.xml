@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>ClassLoaderServletTest</servlet-name>
-        <servlet-class>com.subin.framework.ioc.classloader.ClassLoaderServletTest</servlet-class>
+        <servlet-class>com.levin.spring.ioc.classloader.ClassLoaderServletTest</servlet-class>
     </servlet>
 
     <servlet-mapping>
